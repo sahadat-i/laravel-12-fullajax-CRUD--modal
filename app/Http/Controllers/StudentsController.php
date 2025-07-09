@@ -12,7 +12,7 @@ class StudentsController extends Controller
      */
     public function index()
     {
-        //
+        dd('Students index page');
     }
 
     /**
