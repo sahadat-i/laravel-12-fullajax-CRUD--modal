@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LestureController;
+use App\Http\Controllers\StudentsController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -18,3 +19,4 @@ Route::put('/lecture/{id}', [LestureController::class, 'update'])->name('lecture
 Route::get('/lecture-serverside', [LestureController::class, 'serverside']);
 Route::get('/lecture/json', [LestureController::class, 'json'])->name('lecture.json');
 Route::delete('/lecture/{id}', [LestureController::class, 'destroy']);
+Route::get('/students',[StudentsController::class, 'index'])->name('students.index');
