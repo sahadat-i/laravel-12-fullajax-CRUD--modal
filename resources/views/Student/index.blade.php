@@ -173,7 +173,7 @@
         // Buat dan submit form secara dinamis
         const form = document.createElement('form');
         form.method = 'POST';
-        form.action = `/lecture/${id}`;
+        form.action = `/students/${id}`;
         form.style.display = 'none';
 
         // Tambahkan CSRF token dan method spoofing
