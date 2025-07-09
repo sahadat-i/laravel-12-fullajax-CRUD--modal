@@ -15,7 +15,7 @@
                 <a class="nav-link active" aria-current="page" href="{{'lecture-serverside'}}">Lecture Server - side</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="{{'lecture-serverside'}}">Students</a>
+                <a class="nav-link active" aria-current="page" href="{{'students'}}">Students</a>
               </li>
             </ul>
           </div>
