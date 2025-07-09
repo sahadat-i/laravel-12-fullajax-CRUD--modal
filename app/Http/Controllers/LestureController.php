@@ -68,7 +68,7 @@ class LestureController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Lesture $lesture, $id)
+    public function edit($id)
     {
         $lecture = Lesture::findOrFail($id);
         return response()->json($lecture);
